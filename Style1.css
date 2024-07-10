@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    padding: 40px;
+    background: #1e272e;
+}
+
+.nav{
+
+    display: flex;
+    flex-wrap: wrap;
+     margin: 15px 0;
+}
+
+ .container{
+    position: relative; 
+}
+
+.container img{
+flex-wrap: wrap;
+margin: 10px -100px;
+border: 1px solid black;
+margin-left: 130px;
+}
+
+.container .text{
+    position: absolute;
+    color: black;
+    left: 80px;
+    top: 100px;
+    margin-left: 85px;
+    padding-top: 5px;
+}
+
+.text p{
+    font-size: 30px;
+     color: white;
+     margin-left: 40px;
+     padding: 20px 10px 0 1px;
+     padding-top: 10px;
+     text-align: center;
+
+}
+
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 25px;
+    font-size: 13px;
+    margin: 0 9px 0 38px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+
+.hero-btn:hover{
+    border: 1px solid grey;
+    background: grey;
+    transition: 1s;
+}
+
+
